@@ -288,23 +288,23 @@ async function starts() {
 				},
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
-					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD CAUSS BOT*',
+					premium:ESTE COMANDO SÓ PODE SER USADO PELOS *USUÁRIOS PREMIUMS*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD SOLAR UNITY BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
-					ownerG: '[❗] Causs? Este é um recurso especial para o Causs ❌',
-					ownerB: '[❗] Causs? Este é um recurso especial para o Causs ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CAUSS. Registre-se para fazer amizade com o bot Causs por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Causs|17\n\n──「 CAUSS BOT 」──`,
+					ownerG: '[❗] Corvo? Este é um recurso especial para o Corvo ❌',
+					ownerB: '[❗] Causs? Este é um recurso especial para o Corvo ❌',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de CORVO. Registre-se para fazer amizade com o SOLAR UNITY BOT por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Corvo|13\n\n──「 SOLAR UNITY BOT」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["554792091566@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"554792091566@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["554792091566@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["554792091566@s.whatsapp.net","558296156440@s.whatsapp.net"] 
+			const ownerNumber = ["554196979697@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"554196979697@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["554196979697@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["554196979697@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["554196979697@s.whatsapp.net","554196979697@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
